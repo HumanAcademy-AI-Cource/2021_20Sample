@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="uvc_camera" pkg="uvc_camera" type="uvc_camera_node" />
+  <node name="camera_speech" pkg="camera_speech" type="camera_speech.py" output="screen"/>
+</launch>

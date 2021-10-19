@@ -1,0 +1,23 @@
+#### 準備
+# コマンドA1 プログラムをダウンロードするディレクトリを移動しよう
+cd ~/catkin_ws/src
+
+# コマンドA2 GitHubからプログラムをダウンロード
+git clone https://github.com/HumanAcademy-AI-Cource/xxxxxxxxxxxx.git
+
+# コマンドA3 必要なものを確認するためのツールを動かせるディレクトリに移動しよう
+cd ~/catkin_ws
+
+# コマンドA4 新しいプログラムを構築しよう
+catkin build
+
+# コマンドA5 新しいプログラムの設定を読み込もう
+catkin source
+
+#### サンプルプログラムを動かしてみよう
+# コマンドB1 サンプル実行
+roslaunch sample_ros_package sample_ros_package.launch
+
+#### 挙動を変えてみよう
+# コマンドZ プログラム編集
+codium ~/catkin_ws/src/xxxxxxxxxxxx
